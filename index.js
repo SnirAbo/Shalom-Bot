@@ -30,7 +30,7 @@ client.on('interactionCreate', async interaction => {
   if (interaction.commandName === 'dash') {
     const sender = interaction.user;
     const recipient = interaction.options.getUser('user');
-    await interaction.reply(`!<@${sender.id}> מוסר דש ל־<@${recipient.id}>`);
+    await interaction.reply(`!<@${sender.id}> מוסר/ת דש ל־<@${recipient.id}>`);
   }
 });
 
